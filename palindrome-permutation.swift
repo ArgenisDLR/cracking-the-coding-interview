@@ -2,7 +2,7 @@ func isPalindromePermutation(word: String) -> Bool {
   // create an empty Set of Characters
   var oddCharacters: Set<Character> = []
   
-  // iterating over the array
+  // iterate over the array
   for char in word {
     // checking if the array contains the element
     if oddCharacters.contains(char) {
